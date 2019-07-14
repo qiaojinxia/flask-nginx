@@ -1,0 +1,6 @@
+language: python
+python:
+  - "3"
+install: "pip install -r app/requirements.txt"
+script:
+  - python app/test.py
